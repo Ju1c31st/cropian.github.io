@@ -274,13 +274,21 @@ nav {
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  border-bottom: 0px solid #ddd;
+  background-color: $white;
+  font-size: 15px;
+
+}
+
+.date-post {
+  padding-top: 15px;
+  padding-right: 70px;
+  float: right;
+  font-size: 15px;
 }
 
 footer {
-  padding: 20px 0;
-  text-align: center;
+  padding: 10px 0;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
