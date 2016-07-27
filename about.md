@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Some information about you!
+This was a triumph.... I am making a note here, HUGE SUCCESS!
 
 ### More Information
 
