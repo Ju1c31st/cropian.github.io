@@ -287,8 +287,9 @@ nav {
   font-size: 15px;
 }
 
-footer {
+.footer {
   padding: 10px 0;
+  padding-bottom: 10px 0;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
