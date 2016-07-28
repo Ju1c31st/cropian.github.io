@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
 
@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
@@ -27,8 +26,9 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Home</a>
             <a href="{{ site.baseurl }}/blog">Blog</a>
+            <a href="{{ site.baseurl }}/notes">Notes</a>
+            <a href="{{ site.baseurl }}/projects">Projects</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>
@@ -40,16 +40,16 @@
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
+        <div class="container">
         <footer class="footer">
-          <span style="float:left;">Copyright 2016 © Christopher Joy</span>
-          <span style="float:right;word-spacing:9px;">
-            <a href="https://github.com/cropian">Github</a> 
-            <a href="https://linkedin.com/in/cropian">Linkedin</a> 
-            <a href="https://twitter.com/realChrisJoy">Twitter</a>
-          </span>
+            <span style="float:left;">Copyright 2016 © Christopher Joy</span>
+            <span style="float:right;word-spacing:9px;">
+              <a href="https://github.com/cropian">Github</a> 
+              <a href="https://linkedin.com/in/cropian">Linkedin</a> 
+              <a href="https://twitter.com/realChrisJoy">Twitter</a>
+            </span>
         </footer>
-      </div>
+        </div>
     </div>
 
     {% include analytics.html %}

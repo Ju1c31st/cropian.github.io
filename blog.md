@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog Posts & Articles
+title: Blog Posts / Articles
 permalink: /blog/
 ---
 

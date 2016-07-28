@@ -273,7 +273,6 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
   border-bottom: 0px solid #ddd;
   background-color: $white;
   font-size: 15px;
@@ -290,8 +289,16 @@ nav {
 }
 
 .footer {
-  padding: 10px;
-  padding-bottom: 40px;
+  border-top: 1px solid $lightGray;
+  margin: 0 auto;
+
+  padding: 20px 0;
+  padding-bottom: 50px;
+
+  @include mobile {
+    text-align: center;
+  }
+
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
