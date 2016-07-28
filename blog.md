@@ -1,15 +1,17 @@
 ---
-layout: default
+layout: page
+title: Blog Posts & Articles
+permalink: /blog/
 ---
 
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
 
-      <h1>
+    <h2>
       	<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> 
       	<span class="date-post"> Written on {{ post.date | date: "%B %e, %Y" }} </span>
-	  </h1> 
+	  </h2> 
       
       <div class="entry">
         {{ post.excerpt }}
