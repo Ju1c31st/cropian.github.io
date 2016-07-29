@@ -9,7 +9,7 @@ permalink: /blog/
     <article class="post">
 
     	<b>{{ post.title }}</b> 
-    	<span class="date-post"> Written on {{ post.date | date: "%B %e, %Y" }} </span>
+    	<span class="date-post"> Written on {{ post.date | date: "%B %e, %Y" }} by Chris Joy.</span>
      
       <div class="entry">
         {{ post.excerpt }}
