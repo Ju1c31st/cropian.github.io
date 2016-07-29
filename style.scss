@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -286,8 +286,8 @@ nav {
 .date-post {
   font-style: italic;
   color: $gray;
-  padding-top: 15px;
-  padding-right: 30px;
+  padding-top: 5px;
+  padding-right: 5px;
   float: right;
   font-size: 15px;
 }
