@@ -14,3 +14,21 @@ layout: default
 
 
 </pre>
+
+<h2>Recent Posts</h2><hr>
+<div class="posts">
+  {% for post in site.posts limit:3 %}
+    <article class="post">
+
+  	<b>{{ post.title }}</b> 
+  	<span class="date-post"> Written on {{ post.date | date: "%B %e, %Y" }} </span>
+      
+	<div class="entry">
+	{{ post.excerpt }}
+	</div>
+
+	<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+
+	</article>
+  {% endfor %}
+</div>
