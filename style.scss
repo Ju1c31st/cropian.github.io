@@ -120,7 +120,7 @@ img {
 }
 
 .date {
-  padding-top: -5px;
+  margin-top: -15px;
   font-size: 15px;
   font-style: italic;
   color: $gray;
@@ -249,17 +249,18 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 0px solid $lightGray;
+  border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
   padding-bottom: 1em;
+  margin-top: 10px;
   border-bottom: none;
 }
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
+    margin: 1em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
@@ -268,12 +269,12 @@ nav {
   }
 
   .comments {
-    margin-top: 10px;
+    margin-top: 1px;
   }
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -281,7 +282,7 @@ nav {
   margin-top: 50px;
   border-bottom: 0px solid #ddd;
   background-color: $white;
-  font-size: 15px;
+  font-size: 12px;
 
 }
 
@@ -303,6 +304,10 @@ nav {
     text-align: center;
   }
 
+}
+
+.img-link {
+  color:black;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

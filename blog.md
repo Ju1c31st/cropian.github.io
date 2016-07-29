@@ -7,7 +7,6 @@ permalink: /blog/
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-
     	<b>{{ post.title }}</b> 
     	<span class="date-post"> Written on {{ post.date | date: "%B %e, %Y" }} by Chris Joy.</span>
      

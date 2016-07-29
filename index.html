@@ -24,7 +24,7 @@ layout: default
   	<span class="date-post"> Written on {{ post.date | date: "%B %e, %Y" }} by Chris Joy.</span>
       
 	<div class="entry">
-	{{ post.excerpt }}
+		{{ post.excerpt | strip_html | truncatewords: 30 }}
 	</div>
 
 	<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>

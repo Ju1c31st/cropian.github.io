@@ -2,13 +2,14 @@
 <html>
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
-    <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.ico"/>
+    <link rel="shortcut icon" href="/images/favicon.ico"/>
     {% include meta.html %}
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -43,10 +44,11 @@
         <div class="container">
         <footer class="footer">
             <span style="float:left;">Copyleft 2016 © Chris Joy</span>
-            <span style="float:right;word-spacing:9px;">
-              <a href="https://github.com/cropian">Github</a> 
-              <a href="https://linkedin.com/in/cropian">Linkedin</a> 
-              <a href="https://twitter.com/realChrisJoy">Twitter</a>
+            <span style="float:right;word-spacing:2px">
+            <a class="img-link" href="mailto:{{ site.footer-links.email }}"><i class="fa fa-at"></i></a>
+            <a class="img-link" href="https://github.com/{{ site.footer-links.github }}"><i class="fa fa-github-alt"></i></a>
+            <a class="img-link" href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"><i class="fa fa-linkedin"></i></a>
+            <a class="img-link" href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i class="fa fa-twitter"></i></a>
             </span>
         </footer>
         </div>
