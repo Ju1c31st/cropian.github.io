@@ -3,7 +3,7 @@ layout: page
 title: Blog Posts / Articles
 permalink: /blog/
 ---
-
+<hr>
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
